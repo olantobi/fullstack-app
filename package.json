@@ -1,0 +1,13 @@
+{
+  "name": "fullstack_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/olantobi/fullstack-app",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"cd backend && yarn start\" \"cd client && yarn start\""
+  },
+  "dependencies": {
+    "concurrently": "^4.1.1"
+  }
+}
