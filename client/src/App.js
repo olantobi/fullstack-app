@@ -92,7 +92,8 @@ class App extends Component {
               : data.map((dat) => (
                 <li style={{ padding: '10px' }} key={data.message}>
                   <span style={{ color: 'gray' }}> id: </span> {dat.id} <br />
-                  <span style={{ color: 'gray' }}>data: </span> {dat.message}
+                  <span style={{ color: 'gray' }}>data: </span> {dat.message} <br />
+                  <span style={{ color: 'gray' }}>created: </span> {dat.createdAt}
                 </li>
             ))
           }      
